@@ -1,0 +1,5 @@
+For this problem, I utilised the concept of GCD and LCM as well as the relationship between GCD and LCM. The inital part of the code computes the GCD, the next part computes the LCM using the equatuon LCM(a,b)= a×b divided by GCD(a,b)
+I initialize result to 1, which will store the cumulative LCM of the numbers, then iterate through the numbers from 2 to 20, continuously updating result to be the LCM of result and the current number i. After the loop completes, result holds the smallest number that is evenly divisible by all numbers from 1 to 20.
+When you run the program, it will calculate and print the smallest number that is evenly divisible by all numbers from 1 to 20. For example, the smallest number that is evenly divisible by all numbers from 1 to 20 is 232792560.
+
+By computing the LCM iteratively across all numbers from 1 to 20, you ensure that the final result is divisible by each number in that range. Also, the use of GCD in the LCM calculation ensures that the product of the numbers is divided by their GCD, preventing the result from being unnecessarily large.
